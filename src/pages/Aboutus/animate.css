@@ -1,0 +1,9 @@
+@keyframes scroll {
+    0% {
+      transform: translateX(100%); /* Start from the right */
+    }
+    100% {
+      transform: translateX(-100%); /* End on the left */
+    }
+  }
+  

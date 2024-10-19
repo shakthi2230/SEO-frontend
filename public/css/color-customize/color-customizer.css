@@ -1,0 +1,35 @@
+/* ------------------------------------------------
+  Project:   Seoland - Digital Marketing Agency HTML5 Template
+  Author:    ThemeHt
+
+  NOTE: This is Color customizer stylesheet of template.
+------------------------------------------------ */
+
+
+.color-customizer {z-index: 10000; right: -250px; width: 250px; position: fixed; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); box-shadow: -3px 0 50px -2px rgba(0, 0, 0, 0.14);}
+.color-customizer .color-button {text-align: center; display: inline-block; z-index: 2; position: absolute; background: #fff; width: 100%; }
+.color-customizer .color-chooser {padding: 20px; background-color: #ffffff; -webkit-box-shadow: 0 10px 35px 0 rgba(92.99999999999996, 72.00000000000001, 223, .08); -moz-box-shadow: 0 10px 35px 0 rgba(92.99999999999996, 72.00000000000001, 223, .08); box-shadow: 0 10px 35px 0 rgba(92.99999999999996, 72.00000000000001, 223, .08);}
+.color-customizer.opened .color-chooser { opacity: 1; }
+.color-customizer a.opener {display: block; height: 45px; background: linear-gradient(115deg, var(--themeht-primary-color), var(--themeht-secondary-color)); border-top-left-radius: 5px; border-bottom-left-radius: 5px; width: 45px; font-size: 24px; line-height: 45px; color: #ffffff;  position: absolute; right: 250px; top: 50%;
+  text-align: center;
+  text-decoration: none;
+  transform: translateY(-50%);
+}
+.color-customizer.opened a.opener { left: -45px; border-color: transparent; }
+.color-customizer ul { list-style: none; margin: 0; padding: 0; font-size: 0; }
+.color-customizer ul li {width: 50px; height: 50px; border-radius: 7px; float: left; position: relative; display: inline-block; cursor: pointer; margin: 10px 10px 10px 10px; -webkit-transition: all linear 0.5s; -moz-transition: all linear 0.5s; -o-transition: all linear 0.5s; -ms-transition: all linear 0.5s; transition: all linear 0.5s; }
+.color-customizer ul li:nth-child(3n+3){margin-right: 0;}
+.color-customizer ul li.selected:before{color: #ffffff; font-size: 30px; content: "\f633"; font-family: bootstrap-icons !important; position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%);}
+
+.color-customizer .theme-default {background: linear-gradient(115deg, #ff6004, #fe9e30);}
+.color-customizer .theme-2 {background: linear-gradient(115deg, #f14658, #dc2537);}
+.color-customizer .theme-3 {background: linear-gradient(115deg, #f40076, #df98fa);}
+.color-customizer .theme-4 {background: linear-gradient(115deg, #00dbde, #fc00ff);}
+.color-customizer .theme-5 {background: linear-gradient(115deg, #de2477, #ff512f);}
+.color-customizer .theme-6 {background: linear-gradient(115deg, #30be96, #00b3cc);}
+.color-customizer .theme-7 {background: linear-gradient(115deg, #ff0076, #590fb7);}
+.color-customizer .theme-8 {background: linear-gradient(115deg, #3900a6, #402662);}
+.color-customizer .theme-9 {background: linear-gradient(115deg, #e233ff, #ff6b00);}
+.color-customizer .theme-10 {background: linear-gradient(115deg, #C670EA, #643CB5);}
+.color-customizer .theme-11 {background: linear-gradient(115deg, #C9008B, #3414BC);}

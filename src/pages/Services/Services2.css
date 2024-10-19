@@ -1,0 +1,19 @@
+.service-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    min-height: 300px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background color and text color */
+  }
+  
+  .service-card:hover {
+    background-color: #007bff; 
+    color: white;/* Blue color on hover */
+  }
+  
+  /* Change icon color on card hover */
+  .service-card:hover .icon {
+    color: #ffcc00; /* Change this to your desired icon color on hover */
+  }
+  
